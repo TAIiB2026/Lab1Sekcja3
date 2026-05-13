@@ -7,9 +7,10 @@ import { Second } from './second/second';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { MyDirective } from './my-directive';
+import { Menu } from './menu/menu';
 
 @NgModule({
-  declarations: [App, Second, MyDirective],
+  declarations: [App, Second, MyDirective, Menu],
   imports: [BrowserModule, CommonModule, AppRoutingModule, FormsModule],
   providers: [provideBrowserGlobalErrorListeners()],
   bootstrap: [App],
